@@ -1,0 +1,10 @@
+(module "Mrk Industries:GND_VIA" (layer F.Cu) (tedit 526952E3)
+  (fp_text reference "GND VIA" (at 0 0) (layer F.SilkS) hide
+    (effects (font (size 0.127 0.127) (thickness 0.001)))
+  )
+  (fp_text value VAL** (at 0 0) (layer F.SilkS) hide
+    (effects (font (size 0.127 0.127) (thickness 0.001)))
+  )
+  (pad 1 thru_hole circle (at 0 0) (size 0.4 0.4) (drill 0.3) (layers *.Cu)
+    (zone_connect 2))
+)

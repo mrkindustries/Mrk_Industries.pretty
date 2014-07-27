@@ -1,0 +1,9 @@
+(module "Mrk Industries:BUTTON_CAPACITIVE" (layer F.Cu) (tedit 50DF256B)
+  (fp_text reference P301 (at 0 0) (layer F.SilkS) hide
+    (effects (font (thickness 0.3048)))
+  )
+  (fp_text value ELECTRODE (at 0 0) (layer F.SilkS)
+    (effects (font (thickness 0.3048)))
+  )
+  (pad 1 connect circle (at 0 0) (size 9.99998 9.99998) (layers F.Cu))
+)

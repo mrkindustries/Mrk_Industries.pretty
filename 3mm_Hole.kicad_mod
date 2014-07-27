@@ -1,0 +1,11 @@
+(module "Mrk Industries:3mm_Hole" (layer F.Cu) (tedit 53D53DF4)
+  (descr "module 1 pin (ou trou mecanique de percage)")
+  (tags DEV)
+  (fp_text reference 1PIN_3mm (at 0 -3.048) (layer F.SilkS) hide
+    (effects (font (size 1.016 1.016) (thickness 0.254)))
+  )
+  (fp_text value P*** (at 0 2.794) (layer F.SilkS) hide
+    (effects (font (size 1.016 1.016) (thickness 0.254)))
+  )
+  (pad "" np_thru_hole circle (at 0 0) (size 2.99974 2.99974) (drill 2.99974) (layers *.Cu *.Mask F.SilkS))
+)

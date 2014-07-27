@@ -1,0 +1,9 @@
+(module "Mrk Industries:MOUNTING_HOLE_4.00mm" (layer F.Cu) (tedit 5165AA5A)
+  (fp_text reference HOLE4 (at 0 0) (layer F.SilkS) hide
+    (effects (font (thickness 0.3048)))
+  )
+  (fp_text value CONN_1 (at 0 0) (layer F.SilkS)
+    (effects (font (thickness 0.3048)))
+  )
+  (pad 1 thru_hole circle (at 0 0) (size 5.99948 5.99948) (drill 4.0005) (layers *.Cu *.Mask F.SilkS))
+)

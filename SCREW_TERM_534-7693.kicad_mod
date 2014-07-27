@@ -1,0 +1,17 @@
+(module "Mrk Industries:SCREW_TERM_534-7693" (layer F.Cu) (tedit 4F653D6B)
+  (fp_text reference SCREW_TERMINAL_534-7693 (at 0 -0.3175) (layer F.SilkS) hide
+    (effects (font (size 0.127 0.127) (thickness 0.00254)))
+  )
+  (fp_text value P? (at 0.09906 -0.8001) (layer F.SilkS) hide
+    (effects (font (size 0.127 0.127) (thickness 0.00254)))
+  )
+  (pad 1 thru_hole circle (at 2.5019 -3.5052) (size 2.286 2.286) (drill 1.9304) (layers *.Cu))
+  (pad 1 thru_hole circle (at 2.5019 3.5052) (size 2.286 2.286) (drill 1.9304) (layers *.Cu))
+  (pad 1 thru_hole circle (at -2.5019 3.5052) (size 2.286 2.286) (drill 1.9304) (layers *.Cu))
+  (pad 1 thru_hole circle (at -2.5019 -3.5052) (size 2.286 2.286) (drill 1.9304) (layers *.Cu))
+  (model 3D/screw_term_534-7693.wrl
+    (at (xyz 0 0 0.22))
+    (scale (xyz 10 10 10))
+    (rotate (xyz 270 0 90))
+  )
+)

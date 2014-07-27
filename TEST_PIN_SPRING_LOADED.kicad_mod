@@ -1,0 +1,10 @@
+(module "Mrk Industries:TEST_PIN_SPRING_LOADED" (layer F.Cu) (tedit 5176BBAC)
+  (fp_text reference T10 (at 0.0508 2.55016) (layer F.SilkS)
+    (effects (font (thickness 0.3048)))
+  )
+  (fp_text value CONN_1 (at 0 3.2004) (layer F.SilkS) hide
+    (effects (font (thickness 0.3048)))
+  )
+  (fp_circle (center 0 0) (end 1.00076 -0.8001) (layer F.SilkS) (width 0.50038))
+  (pad 1 thru_hole circle (at 0 0) (size 1.50114 1.50114) (drill 0.508) (layers *.Cu *.Mask F.SilkS))
+)

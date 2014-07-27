@@ -1,4 +1,3 @@
-Mrk_Industries.pretty
+Mrk Industries Library
 =====================
-
-Company's personal library
+In development since 2011, feel free to use any modules if you find it helpful.

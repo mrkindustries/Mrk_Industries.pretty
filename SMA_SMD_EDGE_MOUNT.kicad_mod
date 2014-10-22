@@ -1,0 +1,13 @@
+(module SMA_SMD_EDGE_MOUNT (layer F.Cu) (tedit 5409E167)
+  (fp_text reference SMA_SMD_EDGE_MOUNT (at 0 0) (layer F.SilkS)
+    (effects (font (size 0.7 0.7) (thickness 0.175)))
+  )
+  (fp_text value VAL** (at 0 0) (layer F.SilkS) hide
+    (effects (font (size 0.7 0.7) (thickness 0.175)))
+  )
+  (pad 1 smd rect (at 0 0) (size 4.06 1.52) (layers F.Cu F.Paste F.Mask))
+  (pad 2 smd rect (at 0 -2.54) (size 4.06 1.52) (layers F.Cu F.Paste F.Mask))
+  (pad 2 smd rect (at 0 2.54) (size 4.06 1.52) (layers F.Cu F.Paste F.Mask))
+  (pad 2 smd rect (at 0 2.54) (size 4.06 1.52) (layers B.Cu F.Paste F.Mask))
+  (pad 2 smd rect (at 0 -2.54) (size 4.06 1.52) (layers B.Cu F.Paste F.Mask))
+)

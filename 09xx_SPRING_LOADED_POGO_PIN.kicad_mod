@@ -1,0 +1,14 @@
+(module 09xx_SPRING_LOADED_POGO_PIN (layer F.Cu) (tedit 55D40EA2)
+  (fp_text reference REF** (at -2.525 0) (layer F.SilkS)
+    (effects (font (size 0.7 0.7) (thickness 0.1)))
+  )
+  (fp_text value 09xx_SPRING_LOADED_POGO_PIN (at 0 -0.5) (layer F.Fab) hide
+    (effects (font (size 0.6 0.6) (thickness 0.1)))
+  )
+  (pad 1 smd circle (at 0 0) (size 2.08 2.08) (layers F.Cu F.Paste F.Mask))
+  (model walter/step/pogo_pin.wrl
+    (at (xyz 0 0 0))
+    (scale (xyz 0.39370079 0.39370079 0.39370079))
+    (rotate (xyz 0 0 0))
+  )
+)
